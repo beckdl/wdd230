@@ -1,27 +1,39 @@
 body {
-    margin-left: auto;
+    display: block;
     margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    align-self: center;
 }
 
 header, footer {
     border-style: solid;
     border-radius: 25px;
     background: #5653ff;
-    width: 50%;
+    padding: 25px;
 }
 
 header {
-    display: grid;
-    gap: 50px;
-    padding: 50px;
+    display: flex;
 }
-
+ 
 header img {
-
-    grid-column-start: 1;
+    border-radius: 25px;
 }
 
 header h1 {
-    grid-column-start: 2;
-    align-items: center;
+    margin: auto;
+    font-size: 40pt;
+}
+
+header h2 {
+    font-size: 30pt;
+}
+
+#list {
+    font-size: 20pt;
+}
+
+footer {
+    text-align: center;
 }

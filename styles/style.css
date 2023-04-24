@@ -11,6 +11,7 @@ header, footer {
     border-radius: 25px;
     background: #5653ff;
     padding: 25px;
+    font-family: 'Bruno Ace', cursive;
 }
 
 header {
@@ -40,4 +41,8 @@ footer {
 
 footer p {
     color: yellow;
+}
+
+main {
+    font-family: 'Kanit', sans-serif;
 }

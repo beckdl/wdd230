@@ -2,24 +2,27 @@ body {
     display: block;
     margin-right: auto;
     margin-left: auto;
-    width: 50%;
+    width: 75%;
     align-self: center;
 }
 
-header, footer {
+header div, footer {
     border-style: solid;
     border-radius: 25px;
     background: #5653ff;
     padding: 25px;
     font-family: 'Bruno Ace', cursive;
+    
 }
 
-header {
+header div {
     display: flex;
+    flex-wrap: wrap;
 }
  
 header img {
     border-radius: 25px;
+    
 }
 
 header h1 {

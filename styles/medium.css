@@ -1,0 +1,15 @@
+@media only screen and (min-width: 32.5em) {
+    body {
+        width: 60%;
+    }
+
+    main {
+        margin-left: 35%;
+    }
+
+    footer p {
+        color: lightgreen;
+    }
+    
+    
+}

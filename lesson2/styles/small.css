@@ -1,0 +1,13 @@
+@media only screen and (max-width: 32.5em) {
+    main {
+        grid-template-columns: 100%;
+    }
+
+    #hick {
+        grid-column: 1;
+    }
+
+    #alignment {
+        grid-column: 1;
+    }
+}

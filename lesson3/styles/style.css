@@ -1,0 +1,121 @@
+body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    text-align: center;
+}
+
+header nav, footer {
+	align-items: center;
+	justify-content: center;
+}
+
+nav {
+    background-color: #000000;
+}
+
+nav a {
+    display: flex;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    align-items: center;
+	justify-content: center;
+}
+
+nav a:hover {
+    background-color: grey;
+    color: black;
+}
+
+#colors {
+    padding-left: 0%;
+}
+
+#colors li {
+    padding-bottom: 5px;
+}
+
+#color1 {
+    background-color: #0D00DE;
+    color: white;
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+#color2 {
+    background-color: #FFB400;
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+#color3 {
+    background-color: #FF8A00;
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+#color4 {
+    background-color: #000000;
+    color: white;
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+#color5 {
+    background-color: #9EA3B0;
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+#fonts {
+    padding-left: 0;
+}
+
+#typoH {
+    font-family: 'Roboto Slab', serif;
+    list-style-type: none;
+    font-size: 175%;
+}
+
+#typoP {
+    font-family: 'Kanit', sans-serif;
+    list-style-type: none;
+}
+
+#scenario {
+    justify-content: center;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+#scenario li {
+    padding-bottom: 5px;
+}
+
+footer {
+    background-color: #000000;
+    color: white;
+    padding: 5px;
+}
+
+@media screen and (min-width: 40.5em) {
+    nav {
+        display: flex;
+	    flex-direction: row;
+	    align-items: center;
+	    justify-content: center;
+    }
+
+    
+}

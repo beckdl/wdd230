@@ -1,3 +1,7 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 nav button {
     margin: .2rem 2vw;
     background: #333;

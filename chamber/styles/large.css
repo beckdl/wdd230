@@ -53,5 +53,9 @@
         grid-column: 1;
         grid-row: 3;
     }
+
+    #div3 {
+        visibility: visible;
+    }
     
 }

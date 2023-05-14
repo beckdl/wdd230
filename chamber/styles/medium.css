@@ -1,0 +1,69 @@
+@media only screen and (min-width: 35rem) {
+
+    header {
+        padding-top: 10px;
+        grid-gap: 10px;
+    }
+    
+    main {
+        display: grid;
+        grid-template-columns: 66% 33%;
+        margin-bottom: 10px;
+    }
+
+    #hero {
+        grid-column: 1/3;
+    }
+
+    #news {
+        grid-column: 1/3;
+        grid-row: 2;
+    }
+
+    #spotlights {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column: 1/3;
+        grid-row: 3;
+        height: 200px;
+        margin-bottom: 0px;
+    }
+
+    #join {
+        display: inline;
+        grid-column: 1/3;
+        grid-row: 4;
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    footer img {
+        grid-column: 1;
+    }
+
+    footer div {
+        text-align: left;
+        grid-column: 2;
+    }
+
+    footer a {
+        grid-column: 3;
+    }
+
+    footer p {
+        grid-column: 1/4;
+    }
+
+    .break {
+        visibility: visible;
+    }
+
+    .base::after {
+        content: "";
+        white-space: pre;   
+    }
+
+}

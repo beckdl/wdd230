@@ -1,0 +1,190 @@
+nav button {
+    margin: .2rem 2vw;
+    background: #333;
+    border: none;
+    font-size: 2rem;
+    color: #fff;
+}
+
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: #fff;
+    border-top: 1px solid rgba(0,0,0,0.5);
+}
+
+nav ul li.active a {
+    background-color: rgba(0,0,0,0.2);
+    color: #fff;
+}
+
+nav ul li a:hover {
+    background-color: rgba(0,0,0,0.3);
+}
+
+nav ul {display: none;}
+nav ul.open {display: block;}
+
+#hamburgerBtn span:nth-child(1) {display: block;}
+#hamburgerBtn span:nth-child(2) {display: none;}
+
+#hamburgerBtn.open span:nth-child(1) {display: none;}
+#hamburgerBtn.open span:nth-child(2) {display: block;}
+
+main {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#hero, #event, #weather, #news, #spotlights, #join {
+    margin-top: 10px;
+    height: 200px;
+}
+
+#hero {
+    border: solid;
+}
+
+#event {
+    border: solid;
+}
+
+#weather {
+    border: solid;
+}
+
+#news {
+    border: solid;
+}
+
+#spotlights {
+    border: solid;
+    margin-bottom: 10px;
+    height: 400px;
+}
+
+#spotlights div {
+    margin-right: auto;
+    margin-left: auto;
+    border: solid;
+    width: 90%;
+    align-content: center;
+    height: 40%;
+}
+
+#spotlights div:nth-child(1) {
+    margin-top: 7%;
+}
+
+#join {
+    border: solid;
+    display: none;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#logo {
+    margin: auto;
+    width: 100px;
+    grid-column: 1;
+}
+
+header nav {
+    margin: auto;
+    grid-column: 4;
+}
+
+header #name {
+    margin: auto;
+    grid-column: 2;
+}
+
+header #social {
+    margin: auto;
+    grid-column: 3;
+    grid-row: 1;
+}
+
+#name h1 {
+    font-size: 24px;
+}
+
+#name h2 {
+    font-size: 20px;
+}
+
+header div img {
+    width: 50px;
+}
+
+header time {
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    border: solid #fff;
+    text-align: center;
+    font-size: 20px;
+    grid-column: 1/5;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+footer img {
+    margin: auto;
+    width: 100px;
+    grid-column: 1;
+}
+
+footer div {
+    margin: auto;
+    text-align: center;
+    grid-column: 1;
+}
+
+footer a {
+    margin: auto;
+    text-decoration: none;
+    color: white;
+    grid-column: 1;
+}
+
+footer p {
+    padding-top: 10px;
+    border-top: solid #fff;
+    text-align: center;
+    grid-column: 1;
+}
+
+.break {
+    visibility: hidden;
+}
+
+.base::after {
+    content: "\a";
+    white-space: pre;   
+}

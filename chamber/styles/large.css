@@ -47,6 +47,8 @@
         grid-column: 3;
         grid-row: 1/4;
         height: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
     }
 
     #join {
@@ -54,7 +56,16 @@
         grid-row: 3;
     }
 
+    #div1 {
+        grid-column: 1;
+    }
+
+    #div2 {
+        grid-column: 1;
+    }
+
     #div3 {
+        grid-column: 1;
         visibility: visible;
     }
     

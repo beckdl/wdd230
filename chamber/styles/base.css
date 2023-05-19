@@ -78,19 +78,23 @@ main {
     border: solid;
     margin-bottom: 10px;
     height: 400px;
+    grid-template-columns: 1fr;
 }
 
 #spotlights div {
-    margin-right: auto;
-    margin-left: auto;
+    margin: auto;
     border: solid;
     width: 90%;
     align-content: center;
     height: 40%;
 }
 
-#spotlights div:nth-child(1) {
-    margin-top: 7%;
+#div1 {
+    grid-column: 1;
+}
+
+#div2 {
+    grid-column: 1;
 }
 
 #join {

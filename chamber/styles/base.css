@@ -48,13 +48,16 @@ nav ul.open {display: block;}
 #hamburgerBtn.open span:nth-child(2) {display: block;}
 
 main {
+    display: grid;
+    grid-gap: 10px;
     width: 95%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 #hero, #event, #weather, #news, #spotlights, #join {
-    margin-top: 10px;
     height: 200px;
 }
 
@@ -75,18 +78,22 @@ main {
 }
 
 #spotlights {
+    display: grid;
     border: solid;
-    margin-bottom: 10px;
     height: 400px;
     grid-template-columns: 1fr;
+    grid-template-rows: 160px 160px;
+    grid-gap: 20px;
 }
 
 #spotlights div {
-    margin: auto;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
     border: solid;
     width: 90%;
     align-content: center;
-    height: 40%;
+    height: 100%;
 }
 
 #div1 {

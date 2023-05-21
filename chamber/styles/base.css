@@ -2,6 +2,13 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+#banner {
+    background-color: lightskyblue;
+    text-align: center;
+    padding: 5px;
+    display: none;
+}
+
 nav button {
     margin: .2rem 2vw;
     background: #333;
@@ -54,15 +61,24 @@ main {
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    grid-template-columns: 1fr;
 }
 
 #hero, #event, #weather, #news, #spotlights, #join {
-    height: 200px;
+    min-height: 200px;
+    background-color: lightskyblue;
 }
 
 #hero {
     border: solid;
+}
+
+#hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 #event {
@@ -80,34 +96,56 @@ main {
 #spotlights {
     display: grid;
     border: solid;
-    height: 400px;
+    height: fit-content;
     grid-template-columns: 1fr;
-    grid-template-rows: 160px 160px;
+    grid-template-rows: 1fr 1fr;
     grid-gap: 20px;
 }
 
-#spotlights div {
-    margin-top: 25px;
+#spotlights div img {
+    height: 100px;
+    width:auto;
+}
+
+#div1 {
+    grid-column: 1;
+    border: solid;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 5px;
+    width: 90%;
+    align-content: center;
+    height: fit-content;
+}
+
+#div2 {
+    grid-column: 1;
     border: solid;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    width: 90%;
+    align-content: center;
+    height: fit-content;
+}
+
+#div3 {
+    display: none;
+    grid-column: 1;
+    border: solid;
+    margin-left: auto;
+    margin-right: auto;
     width: 90%;
     align-content: center;
     height: 100%;
 }
 
-#div1 {
-    grid-column: 1;
-}
-
-#div2 {
-    grid-column: 1;
-}
-
 #join {
     border: solid;
     display: none;
+    text-justify: auto;
 }
+
 
 header {
     background-color: #333;
@@ -204,6 +242,3 @@ footer p {
     white-space: pre;   
 }
 
-#div3 {
-    visibility: hidden;
-}

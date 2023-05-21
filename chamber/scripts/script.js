@@ -27,3 +27,12 @@ document.querySelector("#year").textContent = new Date().getFullYear();
 var lastMod = document.lastModified;
 
 document.querySelector("#last").textContent = lastMod;
+
+const currentDay = now.getDay();
+
+const banner = document.getElementById("banner");
+
+if (currentDay === 1 || currentDay === 2) {
+    banner.style.display = "block";
+};
+

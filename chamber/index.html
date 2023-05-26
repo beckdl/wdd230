@@ -19,7 +19,7 @@
         <p>Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
     </div>
     <header>
-        <img id="logo" src="images/bvlogo.png" alt="Chamber of Commerce Logo">
+        <img id="logo" src="images/bvlogo.webp" alt="Chamber of Commerce Logo">
         <div id="name">
             <h1>Bridger Valley</h1>
             <h2>Chamber of Commerce</h2>
@@ -41,7 +41,7 @@
     </header>
     <main>
         <div id="hero">
-            <a href="#"><img src="images/hero.png" alt="Hero image"></a>
+            <a href="#"><img src="images/wdd230-org.jpg" alt="Hero image" srcset="images/wdd230-org-small.jpg 3x, images/wdd230-org-medium.jpg 2x, images/wdd230-org-large.jpg 1x"></a>
         </div>
         <div id="event">
             <h2>Ribbon Cutting</h2>
@@ -53,11 +53,17 @@
         <div id="weather">
             <h2>Weather</h2>
             <p>
-                Always Sunny
+                Temperature: <span id="temp">33</span> &deg;F
+            </p>
+            <p>
+                Wind Speed: <span id="speed">3.5</span> mph
+            </p>
+            <p>
+                Wind Chill: <span id="chill"></span> &deg;F
             </p>
         </div>
         <div id="news">
-            <h2>New Release</h2>
+            <h2>News Release</h2>
             <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos totam vel quaerat 
                 laboriosam aspernatur sapiente qui architecto laborum nihil persipiciatis aut 
@@ -91,12 +97,12 @@
         <div id="join">
             <button>Join</button>
             <p>
-                Discover how to join the chamber of commerce and how it will benefi your organization!
+                Discover how to join the chamber of commerce and how it will benefit your organization!
             </p>
         </div>
     </main>
     <footer>
-        <img src="images/bvlogo.png" alt="Chamber of Commerce Logo">
+        <img src="images/bvlogo.webp" alt="Chamber of Commerce Logo">
         <div id="contact">
             <h2>Contact information</h2>
             <h3>Bridger Valley Chamber of Commerce</h3>
@@ -107,5 +113,6 @@
         <p><span class="base">&copy;<span id="year"></span> Bridger Valley Chamber </span><span class="break">|</span> <span class="base">Daniel Beck </span><span class="break">|</span> <span class="base">WDD 230 Project </span><span class="break">|</span> <span class="base">Last Updated: <span id="last"></span></span></p>
     </footer>
     <script src="scripts/script.js"></script>
+    <script src="scripts/windchill.js"></script>
 </body>
 </html>

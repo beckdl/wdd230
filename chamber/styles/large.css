@@ -78,5 +78,22 @@
         height: fit-content;
         margin-top: 40px;
     }
+
+    #discover {
+        grid-template-columns: 25% 50% 25%;
+    }
+
+    #statistics {
+        grid-column: 1;
+        height: 600px;
+    }
+
+    #images {
+        grid-column: 2;
+    }
+
+    #visits {
+        grid-column: 3;
+    }
     
 }

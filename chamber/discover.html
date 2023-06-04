@@ -34,13 +34,45 @@
             </ul>
         </nav>
         <div id="social">
-            <a href="#"><img src="images/Facebookd.png" alt="Facebook icon"></a>
+            <a href="#"><img src="images/facebook-icon.png" alt="Facebook icon"></a>
             <a href="#"><img src="images/linked.png" alt="LinkedIn icon"></a>
         </div>
         <time datetime="2023-05-18"></time>
     </header>
-    <main>
-        
+    <main id="discover">
+        <div id="statistics">
+            <h3>Statistics About the Bridger Valley</h3>
+            <p>Population: 5,776</p>
+            <p>Median Age: 37.6</p>
+            <p>Median household income: $87,600</p>
+            <p>Source: <a href="https://censusreporter.org/profiles/06000US5604190440-bridger-valley-ccd-uinta-county-wy/">Census Reporter</a></p>
+        </div>
+        <div id="images">
+            <div id="pic1">
+                <picture><img src="images/placeholder.png" data-src="images/landscape.jpg" alt="pic1" loading="lazy"></picture>
+                <p>This is an example of what the local landscape looks like. Not many trees but still a little bit of green.</p>
+            </div>
+            <div id="pic2">
+                <picture><img src="images/placeholder.png" data-src="images/fortbridger.jpg" alt="pic2" loading="lazy"></picture>
+                <p>This is a building that was built as part of the historic Fort Bridger.</p>
+            </div>
+            <div id="pic3">
+                <picture><img src="images/placeholder.png" data-src="images/benedicts.jpg" alt="pic3" loading="lazy"></picture>
+                <p>This is one of the major grocery stores in the area and as such contributes much to the Valley.</p>
+            </div>
+            <div id="pic4">
+                <picture><img src="images/placeholder.png" data-src="images/mainstreet.jpg" alt="pic4" loading="lazy"></picture>
+                <p>This is the main street of one of the towns in the Bridger Valley, Lyman.</p>
+            </div>
+            <div id="pic5">
+                <picture><img src="images/placeholder.png" data-src="images/mall.jpg" alt="pic5" loading="lazy"></picture>
+                <p>This is a local strip mall that located in the middle of all the towns in the Bridger Valley.</p>
+            </div>
+        </div>
+        <div id="visits">
+            <h3>Your Last Visit</h3>
+            <div id="visitWord"></div>
+        </div>
     </main>
     <footer>
         <img src="images/bvlogo.webp" alt="Chamber of Commerce Logo">
@@ -54,6 +86,7 @@
         <p><span class="base">&copy;<span id="year"></span> Bridger Valley Chamber </span><span class="break">|</span> <span class="base">Daniel Beck </span><span class="break">|</span> <span class="base">WDD 230 Project </span><span class="break">|</span> <span class="base">Last Updated: <span id="last"></span></span></p>
     </footer>
     <script src="scripts/script.js"></script>
-    <script src="scripts/windchill.js"></script>
+    <script src="scripts/visit.js"></script>
+    <script src="scripts/lazyload.js"></script>
 </body>
 </html>

@@ -1,0 +1,28 @@
+
+body {
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+table,
+td {
+    border: 1px solid #333;
+    text-align: center;
+}
+
+th {
+    padding: 3px;
+}
+
+thead,
+tfoot {
+    background-color: #333;
+    color: #fff;
+    
+}
+
+tbody tr:nth-child(2) {
+    background-color: lightgrey;
+}

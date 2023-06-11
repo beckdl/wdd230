@@ -250,6 +250,59 @@ header #social {
     font-size: 20px;
 }
 
+#joinPage {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+#joinPage div {
+    border: solid;
+    background-color: lightskyblue;
+}
+
+#joinPage form {
+    border: solid;
+    background-color: lightskyblue;
+    padding: 5px;
+    text-align: left;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+#joinPage form label.top, label.describe, label.radio {
+    display: block;
+    padding-top: 1rem;
+}
+
+#joinPage form label.top input, label.describe input {
+    display: block;
+    font-size: 1rem;
+    padding: .5rem;
+}
+
+#joinPage form label.describe textarea {
+    width: 90%;
+    padding: 10px;
+    
+}
+
+#joinPage form fieldset {
+    margin-top: 10px;
+}
+
+#joinPage form input.btn {
+    display: block;
+    padding: .75rem 1.5rem;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#thanks div {
+    border: solid;
+    background-color: lightskyblue;
+    padding: 5px;
+}
+
 header div img {
     width: 50px;
 }

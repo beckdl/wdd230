@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A place to discover more about the Bridger Valley with pictures and statistics.">
+    <meta name="description" content="A place to submit your business information and join the Bridger Valley Chamber of Commerce.">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <title>Discover More About The Bridger Valley</title>
+    <title>Join The Bridger Valley Chamber of Commerce</title>
 </head>
 <body>
     <div id="banner">
@@ -28,8 +28,8 @@
 <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
             <ul id="primaryNav">
                 <li><a href="index.html">Main</a></li>
+                <li><a href="discover.html">Discover</a></li>
                 <li><a href="#">Directory</a></li>
-                <li><a href="join.html">Join</a></li>
                 <li><a href="#">Contact</a></li>    
             </ul>
         </nav>
@@ -39,40 +39,33 @@
         </div>
         <time datetime="2023-05-18"></time>
     </header>
-    <main id="discover">
-        <div id="statistics">
-            <h3>Statistics About the Bridger Valley</h3>
-            <p>Population: 5,776</p>
-            <p>Median Age: 37.6</p>
-            <p>Median household income: $87,600</p>
-            <p>Source: <a href="https://censusreporter.org/profiles/06000US5604190440-bridger-valley-ccd-uinta-county-wy/">Census Reporter</a></p>
+    <main id="joinPage">
+        <div id="levels">
+            <h3>Membership Levels</h3>
+            <p>Non-Profit (NP) Membership</p>
+            <p>Bronze Membership</p>
+            <p>Silver Membership</p>
+            <p>Gold Membership</p>
+            <p>| | |</p>
+            <p>The levels increase in costs as well as increased benefits per level.</p>
         </div>
-        <div id="images">
-            <div id="pic1">
-                <picture><img src="images/placeholder.png" data-src="images/landscape.jpg" alt="pic1" loading="lazy"></picture>
-                <p>This is an example of what the local landscape looks like. Not many trees but still a little bit of green.</p>
-            </div>
-            <div id="pic2">
-                <picture><img src="images/placeholder.png" data-src="images/fortbridger.jpg" alt="pic2" loading="lazy"></picture>
-                <p>This is a building that was built as part of the historic Fort Bridger.</p>
-            </div>
-            <div id="pic3">
-                <picture><img src="images/placeholder.png" data-src="images/benedicts.jpg" alt="pic3" loading="lazy"></picture>
-                <p>This is one of the major grocery stores in the area and as such contributes much to the Valley.</p>
-            </div>
-            <div id="pic4">
-                <picture><img src="images/placeholder.png" data-src="images/mainstreet.jpg" alt="pic4" loading="lazy"></picture>
-                <p>This is the main street of one of the towns in the Bridger Valley, Lyman.</p>
-            </div>
-            <div id="pic5">
-                <picture><img src="images/placeholder.png" data-src="images/mall.jpg" alt="pic5" loading="lazy"></picture>
-                <p>This is a local strip mall that located in the middle of all the towns in the Bridger Valley.</p>
-            </div>
-        </div>
-        <div id="visits">
-            <h3>Your Last Visit</h3>
-            <div id="visitWord"></div>
-        </div>
+        <form method="get" action="thankyou.html">
+            <label class="top">First Name* <input type="text" name="fname" required></label>
+            <label class="top">Last Name* <input type="text" name="lname" required></label>
+            <label class="top">Business Position <input type="text" name="title"></label>
+            <label class="top">E-mail* <input type="email" name="email" placeholder="example@site.com" required></label>
+            <label class="top">Cell Phone Number* <input type="tel" name="phone" required></label>
+            <fieldset>
+                <legend>Membership Level</legend>
+                <label class="radio"><input type="radio" name="level" value="np"> NP</label>
+                <label class="radio"><input type="radio" name="level" value="bronze"> Bronze</label>
+                <label class="radio"><input type="radio" name="level" value="silver"> Silver</label>
+                <label class="radio"><input type="radio" name="level" value="gold"> Gold</label>
+            </fieldset>
+            <label class="describe">Business Description <textarea rows="4" value="description"></textarea></label>
+            <label class="formDate"><input type="hidden" name="date"></label>
+            <input class="btn" type="submit" value="Join">
+        </form>
     </main>
     <footer>
         <img src="images/bvlogo.webp" alt="Chamber of Commerce Logo">
@@ -86,7 +79,6 @@
         <p><span class="base">&copy;<span id="year"></span> Bridger Valley Chamber </span><span class="break">|</span> <span class="base">Daniel Beck </span><span class="break">|</span> <span class="base">WDD 230 Project </span><span class="break">|</span> <span class="base">Last Updated: <span id="last"></span></span></p>
     </footer>
     <script src="scripts/script.js"></script>
-    <script src="scripts/visit.js"></script>
     <script src="scripts/lazyload.js"></script>
 </body>
 </html>

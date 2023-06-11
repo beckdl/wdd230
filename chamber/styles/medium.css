@@ -122,4 +122,18 @@
         white-space: pre;   
     }
 
+    #joinPage {
+        grid-template-columns: 50% 50%;
+        grid-gap: 0;
+    }
+
+    #joinPage div {
+        grid-column: 2;
+    }
+
+    #joinPage form {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
 }

@@ -361,3 +361,19 @@ footer p {
     white-space: pre;   
 }
 
+.business {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.business section {
+    border: solid;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    background-color: lightblue;
+    width: fit-content;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: 10px;
+    flex-shrink: 2;
+}

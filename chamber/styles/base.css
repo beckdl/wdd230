@@ -361,12 +361,16 @@ footer p {
     white-space: pre;   
 }
 
-.business {
+#directory {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
 }
 
-.business section {
+#directory .grid {
+    margin-left: auto;
+}
+
+#directory .grid section {
     border: solid;
     margin-bottom: 10px;
     padding-bottom: 10px;
@@ -374,6 +378,41 @@ footer p {
     width: fit-content;
     padding-left: 5px;
     padding-right: 5px;
-    margin-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
     flex-shrink: 2;
+}
+
+#directory .grid section p {
+    text-overflow: clip;
+}
+
+#directory .list {
+    border: solid;
+	display: flex;
+	flex-direction: column;
+}
+
+#directory .list section {
+	display: grid;
+	grid-template-columns: 4fr;
+	margin: 0;
+	padding: 0.25rem;
+}
+
+#directory .list section > * {
+	margin: 0 1rem;
+}
+
+#directory .list section img {
+	display: none; /* smaller viewports only */
+}
+
+#directory .list section h3 {
+	font-size: 1rem;
+	font-family: Roboto, Helvetica, sans-serif;
+}
+
+#directory .list section:nth-child(even) {
+	background-color: lightblue;
 }

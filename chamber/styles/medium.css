@@ -136,4 +136,32 @@
         grid-row: 1;
     }
 
+    #directory .grid {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    
+    
+    #directory .grid section {
+        border: solid;
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+        background-color: lightblue;
+        width: fit-content;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        flex-shrink: 2;
+    }
+    
+    #directory .list section {
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        margin: 0;
+        padding: 0.25rem;
+    }
+    
+    
 }

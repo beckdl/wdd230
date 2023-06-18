@@ -95,5 +95,9 @@
     #visits {
         grid-column: 3;
     }
+
+    #directory .list section {
+        grid-template-columns: 2fr 1fr 1fr;
+    }
     
 }

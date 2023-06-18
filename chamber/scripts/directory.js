@@ -18,7 +18,7 @@ getBusinessData();
 
 
 const displayBusinesses = (businesses) => {
-    const cards = document.querySelector('div.business'); // select the output container element
+    const cards = document.querySelector('article.grid'); // select the output container element
   
     businesses.forEach((business) => {
         // Create elements to add to the div.cards element
@@ -26,14 +26,19 @@ const displayBusinesses = (businesses) => {
         let h2 = document.createElement('h2');
         let pAddress = document.createElement('p');
         let pPhone = document.createElement('p');
+        let aWeb = document.createElement('a');
+        let pLevel = document.createElement('p');
         let portrait = document.createElement('img');
   
         // Build the h2 content out to show the prophet's full name - finish the template string
         h2.textContent = `${business.name}`;
         pAddress.textContent = `${business.address}`;
         pPhone.textContent = `${business.phone}`;
+        aWeb.textContent = `Link to Website`;
+        pLevel.textContent = `${business.memLevel}`;
 
         // Build the image portrait by setting all the relevant attribute
+        aWeb.setAttribute('href', business.url)
         portrait.setAttribute('src', business.image);
         portrait.setAttribute('alt', `Picture of ${business.name}`);
         portrait.setAttribute('loading', 'lazy');
@@ -42,6 +47,8 @@ const displayBusinesses = (businesses) => {
         card.appendChild(h2);
         card.appendChild(pAddress);
         card.appendChild(pPhone);
+        card.appendChild(aWeb);
+        card.appendChild(pLevel);
         card.appendChild(portrait);
   
         cards.appendChild(card);

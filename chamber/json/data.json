@@ -1,0 +1,76 @@
+{
+    "businesses": [
+        {
+            "name": "Taco Time",
+            "address": "1243 Main St, Lyman WY 82937",
+            "phone": "1 (307) 782-5555",
+            "url": "https://www.tacotime.com/stores/6420",
+            "image": "images/tacoTime.png",
+            "memLevel": "Silver"
+        },
+        {
+            "name": "Bridger Valley Theater",
+            "address": "2947 2nd St, Lyman WY 82937",
+            "phone": "1 (307) 782-5555",
+            "url": "https://www.bridgervalleytheatre.com/",
+            "image": "images/popcorn.jpg",
+            "memLevel": "Bronze"
+        },
+        {
+            "name": "Benedicts Market",
+            "address": "409 Main St, Mountain View WY 82939",
+            "phone": "1 (307) 782-5555",
+            "url": "https://www.benedictsmarket.com/",
+            "image": "images/benedictsDir.jpg",
+            "memLevel": "Gold"
+        },
+        {
+            "name": "Fiesta Guadalajara",
+            "address": "109 Main St, Mountain View WY 82939",
+            "phone": "1 (307) 782-5555",
+            "url": "https://www.facebook.com/fiestaguadalajararestaurant/?locale=es_LA",
+            "image": "images/fiesta.jpg",
+            "memLevel": "Silver"
+        },
+        {
+            "name": "Gateway Inn",
+            "address": "201 Main St, Lyman WY 82937",
+            "phone": "1 (307) 782-5555",
+            "url": "https://www.lymangatewayinn.com/",
+            "image": "images/gatewayInn.png",
+            "memLevel": "Bronze"
+        },
+        {
+            "name": "Benedicts Ace Hardware",
+            "address": "400 Main St, Mountain View WY 82939",
+            "phone": "1 (307) 782-5555",
+            "url": "https://www.acehardware.com/store-details/17451?utm_source=google&utm_medium=local&utm_campaign=localmaps&utm_content=17451",
+            "image": "images/ace.jpg",
+            "memLevel": "Gold"
+        },
+        {
+            "name": "Union Wireless",
+            "address": "418 Main St, Mountain View WY 82939",
+            "phone": "1 (307) 782-5555",
+            "url": "https://www.unionwireless.com/",
+            "image": "images/union.png",
+            "memLevel": "Gold"
+        },
+        {
+            "name": "The Church of Jesus Christ of Latter-Day Saints",
+            "address": "208 WY-414, Lyman, WY 82937",
+            "phone": "1 (307) 782-5555",
+            "url": "https://www.churchofjesuschrist.org/?lang=eng",
+            "image": "images/church.jpg",
+            "memLevel": "Non-Profit"
+        },
+        {
+            "name": "K Cottage Clothing",
+            "address": "4568 1st St, Lyman WY 82937",
+            "phone": "1 (307) 782-5555",
+            "url": "https://www.instagram.com/kcottagewyo/?hl=en",
+            "image": "images/kCottage.jpg",
+            "memLevel": "Bronze"
+        }
+    ]
+}

@@ -3,7 +3,7 @@ const currentSpeed = document.querySelector('#speed');
 const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('figcaption');
 
-const url = "https://api.openweathermap.org/data/2.5/weather?q=Lyman&units=imperial&appid=5a04946737ab290cdc5fe062838346b0"
+const url = "https://api.openweathermap.org/data/2.5/weather?zip=82937,us&units=imperial&appid=5a04946737ab290cdc5fe062838346b0"
 
 async function apiFetch() {
     try {

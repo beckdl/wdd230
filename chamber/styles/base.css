@@ -90,6 +90,14 @@ main {
     border: solid;
 }
 
+#weather figure {
+    border: solid;
+}
+
+#weather figure figcaption {
+    text-transform: capitalize;
+}
+
 #news {
     border: solid;
 }

@@ -1,6 +1,6 @@
-const temp = document.getElementById("temp").innerText;
+const temp = document.getElementById("temp").innerHTML;
 
-const speed = document.getElementById("speed").innerText;
+const speed = document.getElementById("speed").innerHTML;
 
 var factor = 35.74 + (0.6215 * temp) - (35.75 * (speed ** 0.16)) + (0.4275 * temp * (speed ** 0.16));
 

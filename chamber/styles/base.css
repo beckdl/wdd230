@@ -305,6 +305,10 @@ header #social {
     margin-top: 10px;
 }
 
+#thanks {
+    grid-template-columns: 1fr;
+}
+
 #thanks div {
     border: solid;
     background-color: lightskyblue;
@@ -317,6 +321,43 @@ header #social {
 
 #contInfo {
     border: solid;
+}
+
+#contForm form {
+    border: solid;
+    background-color: lightskyblue;
+    padding: 5px;
+    text-align: left;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+#contForm form label.top, label.describe, label.radio {
+    display: block;
+    padding-top: 1rem;
+}
+
+#contForm form label.top input, label.describe input {
+    display: block;
+    font-size: 1rem;
+    padding: .5rem;
+}
+
+#contForm form label.describe textarea {
+    width: 90%;
+    padding: 10px;
+    
+}
+
+#contForm form fieldset {
+    margin-top: 10px;
+}
+
+#contForm form input.btn {
+    display: block;
+    padding: .75rem 1.5rem;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 header div img {

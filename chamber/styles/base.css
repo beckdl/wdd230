@@ -67,7 +67,7 @@ main {
     grid-template-columns: 1fr;
 }
 
-#hero, #event, #weather, #news, #spotlights, #join, #statistics, #images, #visits {
+#hero, #event, #weather, #news, #spotlights, #join, #statistics, #images, #visits, #contInfo {
     min-height: 200px;
     background-color: lightskyblue;
 }
@@ -309,6 +309,14 @@ header #social {
     border: solid;
     background-color: lightskyblue;
     padding: 5px;
+}
+
+#contact {
+    grid-template-columns: 1fr;
+}
+
+#contInfo {
+    border: solid;
 }
 
 header div img {

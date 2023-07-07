@@ -1,0 +1,147 @@
+body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    text-align: center;
+}
+
+header nav, footer {
+	align-items: center;
+	justify-content: center;
+}
+
+nav {
+    background-color: #000000;
+}
+
+nav a {
+    display: flex;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    align-items: center;
+	justify-content: center;
+}
+
+nav a:hover {
+    background-color: grey;
+    color: black;
+}
+
+#colors {
+    padding-left: 0%;
+}
+
+#colors li {
+    padding-bottom: 5px;
+}
+
+#color1 {
+    background-color: #ef6f6c;
+    color: white;
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+#color2 {
+    background-color: #ffbf00;
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+#color3 {
+    background-color: #3da5d9;
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+#color4 {
+    background-color: #0c1b33;
+    color: white;
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+#color5 {
+    background-color: #32936f;
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+#fonts {
+    padding-left: 0;
+}
+
+#typoH {
+    font-family: 'Lora', serif;
+    list-style-type: none;
+    font-size: 175%;
+}
+
+#typoP {
+    font-family: 'Roboto', sans-serif;
+    list-style-type: none;
+}
+
+#scenario {
+    justify-content: center;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+#scenario li {
+    padding-bottom: 5px;
+}
+
+footer {
+    background-color: #000000;
+    color: white;
+    padding: 5px;
+}
+
+#sitemap {
+    width: 50%;
+    height: auto;
+}
+
+#wireframes {
+    display: grid;
+    grid-template-columns: 100%;
+    justify-items: center;
+}
+
+#wireframes img:nth-of-type(1) {
+    width: 50%;
+    margin-bottom: 50px;
+}
+
+#wireframes img:nth-of-type(2) {
+    width: 75%;
+    margin-bottom: 50px;
+}
+
+#wireframes img:nth-of-type(3) {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+@media screen and (min-width: 40.5em) {
+    nav {
+        display: flex;
+	    flex-direction: row;
+	    align-items: center;
+	    justify-content: center;
+    }
+
+    
+}

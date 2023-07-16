@@ -24,41 +24,33 @@
         </div>
         <img class="logo" src="images/logo.png" alt="logo">
         <nav>
-            <button id="hamburgerBtn"><span>+</span><span>x</span></button>
+            <button id="hamburgerBtn"><span>+</span><span>X</span></button>
             <ul id="primaryNav">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="fresh.html">Fresh</a></li>
                 <li><a href="about.html">About</a></li>
             </ul></nav>
     </header>
-    <main id="home">
-        <img src="#" alt="hero">
-        <div id="call">
-            <p>
-                Make your own Tropical Paradise <a href="fresh.html">today!</a>
-            </p>
-        </div>
-        <div id="summary">
-            <p>
-
-            </p>
-        </div>
-        <div id="weather">
-            <h2>Weather</h2>
-            <figure>
-                <img src="images/placeholderIcon.png" alt="" id="weather-icon" />
-                <figcaption></figcaption>
-            </figure>
-            <p>
-                Temperature: <span id="temp"></span> &deg;F
-            </p>
-            <p>
-                Humidity: <span id="humidity"></span>
-            </p>
-        </div>
-        <div id="specialty">
-
-        </div>
+    <main id="fresh">
+        <form method="get" action="thankyou.html">
+            <label class="top">First Name* <input type="text" name="fname" required></label>
+            <label class="top">E-mail* <input type="email" name="email" placeholder="example@site.com" required></label>
+            <label class="top">Cell Phone Number* <input type="tel" name="phone" required></label>
+            <fieldset>
+                <legend>Fruit Choices</legend>
+                <label class="radio"><input list="fruits" name="choice1">Choice 1 </label>
+                <datalist id="fruits">
+                    <option value="hello">
+                    <option value="im">
+                    <option value="working">
+                </datalist>
+                <label class="radio"><input list="fruits" name="choice2">Choice 2 </label>
+                <label class="radio"><input list="fruits" name="choice3">Choice 3 </label>
+            </fieldset>
+            <label class="describe">Special Instructions<textarea rows="4"></textarea></label>
+            <label class="formDate"><input type="hidden" name="date"></label>
+            <input class="btn" type="submit" value="Join">
+        </form>
     </main>
     <footer>
         <img class="logo" src="images/logo.png" alt="logo">
@@ -67,6 +59,5 @@
         <div id="last"></div>
     </footer>
     <script src="scripts/button.js"></script>
-    <script src="scripts/weather.js"></script>
 </body>
 </html>

@@ -1,7 +1,5 @@
 const urlFood ="https://beckdl.github.io/wdd230/bountifulFoods/json/fruit.json";
 
-
-
 async function apiFetch() {
     try {
         const response = await fetch(urlFood);

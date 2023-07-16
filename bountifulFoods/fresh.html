@@ -14,8 +14,12 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lora&family=Roboto&display=swap" rel="stylesheet">
     <title>Bountiful Foods - Home</title>
+    
+    <script src="scripts/fruits.js"></script>
 </head>
 <body>
+    
+    <script src="scripts/fruits.js"></script>
     <header>
         <div id="social">
             <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
@@ -38,14 +42,9 @@
             <label class="top">Cell Phone Number* <input type="tel" name="phone" required></label>
             <fieldset>
                 <legend>Fruit Choices</legend>
-                <label class="radio"><input list="fruits" name="choice1">Choice 1 </label>
-                <datalist id="fruits">
-                    <option value="hello">hello</option>
-                    <option value="im">
-                    <option value="working">
-                </datalist>
-                <label class="radio"><input list="fruits" name="choice2">Choice 2 </label>
-                <label class="radio"><input list="fruits" name="choice3">Choice 3 </label>
+                <label>Choice 1 </label><select id="fruits1" name="choice1"><option value="">--Please choose an option--</option></select>
+                <label>Choice 2 </label><select id="fruits2" name="choice2"><option value="">--Please choose an option--</option></select>
+                <label>Choice 3 </label><select id="fruits3" name="choice3"><option value="">--Please choose an option--</option></select>
             </fieldset>
             <label class="describe">Special Instructions<textarea rows="4"></textarea></label>
             <label class="formDate"><input type="hidden" name="date"></label>

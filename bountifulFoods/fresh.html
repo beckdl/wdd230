@@ -24,7 +24,7 @@
         </div>
         <img class="logo" src="images/logo.png" alt="logo">
         <nav>
-            <button id="hamburgerBtn"><span>+</span><span>X</span></button>
+            <button id="hamburgerBtn"><span>+</span><span>x</span></button>
             <ul id="primaryNav">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="fresh.html">Fresh</a></li>
@@ -32,10 +32,10 @@
             </ul></nav>
     </header>
     <main id="fresh">
-        <form method="get" action="thankyou.html">
-            <label class="top">First Name* <input type="text" name="fname" required></label>
-            <label class="top">E-mail* <input type="email" name="email" placeholder="example@site.com" required></label>
-            <label class="top">Cell Phone Number* <input type="tel" name="phone" required></label>
+        <form method="post" action="/formReadout.js" target="_self">
+            <label class="top">First Name* <input type="text" id="name" name="fname" required></label>
+            <label class="top">E-mail* <input type="email" id="email" name="email" placeholder="example@site.com" required></label>
+            <label class="top">Cell Phone Number* <input type="tel" id="tel" name="phone" required></label>
             <fieldset>
                 <legend>Fruit Choices</legend>
                 <label>Choice 1 </label><select id="fruits1" name="choice1"><option value="">--Please choose an option--</option></select>
@@ -43,17 +43,24 @@
                 <label>Choice 3 </label><select id="fruits3" name="choice3"><option value="">--Please choose an option--</option></select>
             </fieldset>
             <label class="describe">Special Instructions<textarea id="text" rows="4"></textarea></label>
-            <label class="formDate"><input type="hidden" name="date"></label>
-            <input class="btn" type="submit" value="Join">
+            <label class="formDate"><input type="hidden" id="date" name="date"></label>
+            <input class="btn" type="submit" value="Make">
         </form>
+        <div id="readout">
+
+        </div>
     </main>
     <footer>
         <img class="logo" src="images/logo.png" alt="logo">
-        <div id="contact"></div>
-        <a href="resource.html">Link to the Resources/Attributes page</a>
-        <div id="last"></div>
+        <div id="contact">
+            <p>Bountiful Foods</p>
+
+        </div>
+        <a href="resource.html">Link to the Attributes page</a>
+        <div id="last">3</div>
     </footer>
     <script src="scripts/button.js"></script>
+    <script src="scripts/lastModified.js"></script>
     <script src="scripts/fruits.js"></script>
 </body>
 </html>

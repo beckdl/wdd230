@@ -1,3 +1,161 @@
 @media only screen and (min-width: 64rem) {
+    /* Home */
+    body {
+        display: grid;
+        grid-template-columns: 20% 80%;
+    }
+
+    header {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-row: 1/3;
+    }
     
+    nav button {display: none;}
+    
+    nav ul#primaryNav {
+        display: grid;
+        margin-left: 2vw;
+        border-left: 1px solid rgba(0,0,0,0.3);
+    }
+    
+    nav ul li a {
+        border: none;
+        border-right: 1px solid rgba(0,0,0,0.3);
+        padding: .5rem 1rem;
+    }
+
+
+    header nav {
+        justify-self: center;
+    }
+
+    header img {
+        grid-row: 1;
+    }
+
+    #social {
+        grid-row: 3;
+    }
+
+    /* Home */
+    #home {
+        height: min-content;
+    }
+
+    #hero {
+        grid-column: 1/3;
+        
+        width: auto;
+        justify-self: center;
+    }
+
+    #weather {
+        grid-column: 1/3;
+    }
+
+    /* Fresh */
+
+    #fresh {
+        min-height: 850px;
+        display: grid;
+        grid-template-rows: 10% 1fr;
+        
+        text-align: center;
+    }
+
+    #fresh form {
+        align-self: center;
+        justify-self: center;
+
+    }
+
+    #fresh form label {
+        display: block;
+        text-align: center;
+    }
+
+    #fresh form textarea {
+        display: block;
+        justify-self: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    #fresh form input {
+        display: block;
+        justify-self: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    #readout {
+        display: none;
+    }
+
+    /* About */
+
+    #about {
+        min-height: 850px;
+        display: grid;
+        grid-template-rows: 25% 25% 50%;
+        text-align: center;
+    }
+
+    #aboutContact form {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #aboutContact form label {
+        display: block;
+    }
+
+    #aboutContact form input {
+        display: block;
+        justify-self: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    #google img {
+        padding-bottom: 10px;
+        height: 60%;
+        width: auto;
+    }
+
+    footer {
+        grid-column: 2/3;
+        align-self: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    footer img {
+        display: none;
+        align-self: center;
+    }
+
+    #contact {
+        align-items: center;
+    }
+
+    footer a {
+        grid-column: 2;
+        margin-top: 50px;
+        margin-bottom: auto;
+    }
+
+    #last {
+        padding: 10px;
+        margin-top: 50px;
+        margin-bottom: auto;
+        align-items: center;
+    }
 }

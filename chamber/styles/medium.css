@@ -155,7 +155,7 @@
         border: solid;
         margin-bottom: 10px;
         padding-bottom: 10px;
-        background-color: lightblue;
+        background-color: var(--bg-color);
         width: fit-content;
         padding-left: 5px;
         padding-right: 5px;

@@ -2,8 +2,12 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+:root {
+    --bg-color: rgb(238, 250, 135);
+}
+
 #banner {
-    background-color: lightskyblue;
+    background-color: var(--bg-color);
     text-align: center;
     padding: 5px;
     display: none;
@@ -69,7 +73,7 @@ main {
 
 #hero, #event, #weather, #news, #spotlights, #join, #statistics, #images, #visits, #contInfo {
     min-height: 200px;
-    background-color: lightskyblue;
+    background-color: var(--bg-color);
 }
 
 #hero {
@@ -276,12 +280,12 @@ header #social {
 
 #joinPage div {
     border: solid;
-    background-color: lightskyblue;
+    background-color: var(--bg-color);
 }
 
 #joinPage form {
     border: solid;
-    background-color: lightskyblue;
+    background-color: var(--bg-color);
     padding: 5px;
     text-align: left;
     margin: 0 1rem;
@@ -322,7 +326,7 @@ header #social {
 
 #thanks div {
     border: solid;
-    background-color: lightskyblue;
+    background-color: var(--bg-color);
     padding: 5px;
 }
 
@@ -336,7 +340,7 @@ header #social {
 
 #contForm form {
     border: solid;
-    background-color: lightskyblue;
+    background-color: var(--bg-color);
     padding: 5px;
     text-align: left;
     margin: 0 1rem;
@@ -442,7 +446,7 @@ footer p {
     border: solid;
     margin-bottom: 10px;
     padding-bottom: 10px;
-    background-color: lightblue;
+    background-color: var(--bg-color);
     width: fit-content;
     padding-left: 5px;
     padding-right: 5px;
@@ -482,5 +486,5 @@ footer p {
 }
 
 #directory .list section:nth-child(even) {
-	background-color: lightblue;
+	background-color: var(--bg-color);
 }
